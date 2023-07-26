@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #F59E0B; /* Yellow */
+    --secondary-color: #60A5FA; /* Blue */
+    --text-color: #4B5563; /* Gray */
+    --bg-color: #F3F4F6; /* Off-white */
+    --border-color: #E5E7EB; /* Light Gray */
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.api-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Set minimum height to cover the entire viewport */
+    background-color: #fff; /* Background color for the container */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.chuck-norris-btn {
+    background-color: #4CAF50; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.chuck-norris-btn:hover {
+    background-color: #45a049; /* Darker shade of button background on hover */
+}
+
+.chuck-norris-joke {
+    color: #333; /* Color for the Chuck Norris joke text */
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+blockquote {
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hide-border {
+    border: none;
+}
